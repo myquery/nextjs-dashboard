@@ -39,8 +39,6 @@ const CreateInvoice = FormSchema.omit({ id: true, date: true });
 const UpdateInvoice = FormSchema.omit({ id: true, date: true });
 
  
-// ...
- 
 export async function authenticate(
   prevState: string | undefined,
   formData: FormData,
